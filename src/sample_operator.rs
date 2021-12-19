@@ -19,7 +19,8 @@ fn main() {
     println!("answer6 = {:b}", answer6);
 
     let unsigned: u8 = 0b11111111;
-    let signed: i8 = 0b11111111;
+    // todo 調査必要
+    //let signed: i8 = 0b11111111;
     println!("{:08b}", unsigned >> 2);
-    println!("{:08b}", signed >> 2);
+    //println!("{:08b}", signed >> 2);
 }
