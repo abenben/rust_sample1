@@ -9,4 +9,4 @@ edition = "2018"
 
 [[bin]]
 name = "main"
-path = "src/sample_if.rs"
+path = "src/sample_while.rs"
