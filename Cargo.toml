@@ -9,4 +9,4 @@ edition = "2018"
 
 [[bin]]
 name = "main_001"
-path = "src/uruudoshi.rs"
+path = "src/method.rs"
