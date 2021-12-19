@@ -9,4 +9,4 @@ edition = "2018"
 
 [[bin]]
 name = "main_001"
-path = "src/main_004.rs"
+path = "src/sample_function.rs"

@@ -10,12 +10,12 @@ fn main() {
     assert_eq!(std::mem::size_of::<()>(), 0);
     assert_eq!(std::mem::size_of::<bool>(), 1);
 
-    // aaaa
-    /* aaaa
-       nnn
+    // コメント
+    /* 複数行コメント1
+       複数行コメント1
      */
     /*
-    /* aaaa */
+    /* コメントのネスト */
     */
 }
 
