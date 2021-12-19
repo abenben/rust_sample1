@@ -8,5 +8,5 @@ edition = "2018"
 [dependencies]
 
 [[bin]]
-name = "main_001"
-path = "src/sample_function.rs"
+name = "main"
+path = "src/sample_if.rs"
