@@ -4,4 +4,11 @@ fn main() {
         x + one
     };
     println! {"10 + 1 = {}", plus_one(10)};
+
+    let mut one = 1;
+    let plus_one = move |x| {
+        x + one
+    };
+    one += 1;
+    println!("10 + 1 = {}", plus_one(10));
 }
