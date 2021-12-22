@@ -9,4 +9,4 @@ edition = "2018"
 
 [[bin]]
 name = "main"
-path = "src/sample_imutable.rs"
+path = "src/sample_cloujor.rs"
