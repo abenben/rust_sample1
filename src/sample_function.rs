@@ -11,7 +11,7 @@ fn main() {
 }
 
 fn string_length(x: &String) -> usize {
-    let length =x.len();
+    let length = x.len();
     length
 }
 

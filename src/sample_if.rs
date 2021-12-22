@@ -14,8 +14,8 @@ fn main() {
     };
     println!("{} is {} number", b, even_or_odd);
 
-    let d=14;
-    if d % 2==0 {
+    let d = 14;
+    if d % 2 == 0 {
         println!("{} ia an even number", d);
     }
 }

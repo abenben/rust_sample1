@@ -12,7 +12,7 @@ impl<T, S> Rectangle<T, S> {
     }
 }
 
-fn gen<T>(x:T)->T{
+fn gen<T>(x: T) -> T {
     x
 }
 

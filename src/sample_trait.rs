@@ -50,7 +50,7 @@ fn main() {
     let tri2 = RightTrangle { base: 3.0, perpendicular: 4.0 };
     let rec2 = Rectangle { width: 3.0, height: 4.0 };
 
-    let mut vv:Vec<&dyn GeoCalculator>=vec![];
+    let mut vv: Vec<&dyn GeoCalculator> = vec![];
     vv.push(&tri2);
     vv.push(&rec2);
 
